@@ -1,6 +1,7 @@
 import React from 'react'
 
 import ProductList from './ProductList'
+import CartCard from './CartCard'
 
 export default function () {
   return (
@@ -9,7 +10,9 @@ export default function () {
     <h1>Dessert</h1>
     <ProductList/>
   </div>
-  <div className="rightSide"></div>
+  <div className="rightSide">
+    <CartCard/>
+  </div>
   </>
   )
 }
