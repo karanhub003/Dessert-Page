@@ -1,0 +1,25 @@
+.incDecBtn{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px 20px;
+  width: 170px;
+  border-radius: 50px;
+  margin-top: -20px;
+  background-color: var(--text-highlighting );
+}
+.circleBtn{
+    width: 15px;
+    height: 15px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.circleBtn:hover,.iconImg:hover{
+    color: var(--text-highlighting);
+    background-color: white;
+}

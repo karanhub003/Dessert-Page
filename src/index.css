@@ -1,9 +1,11 @@
 *{
     box-sizing: border-box;
     margin: 0px;
+  
+}
+body{
     background-color: var(--bg-main);
 }
-
 
 :root {
   --bg-main: #fcf9f7;

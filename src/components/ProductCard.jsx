@@ -1,19 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './ProductCard.css'
-import waffleImg from '../assets/image-waffle-desktop.jpg'
-import cartImg   from '../assets/icon-add-to-cart.svg'
+
+import AddToCart from './AddToCart';
 
 export default function ProductCard({product}) {
-  console.log(product);
+const [quantity,setQuantity]=useState(0)
   return (
     <>
     <div className='ProductCard'>
       <div className="imgBox">
-        <img className='ProdImg' src={waffleImg} alt="" />
-        <div className="addToBtn">
-          <img src={cartImg} alt="" />
-          <h3>Add to cart</h3>
-        </div>
+        <img className='ProdImg' src={product.image.desktop} alt="" />
+        <AddToCart quantity={quantity} setQuantity={setQuantity} />
       </div>
       <p className='productName'>{product.category}</p>
       <h2 className='productTitle'>{product.name}</h2>
@@ -22,5 +19,9 @@ export default function ProductCard({product}) {
 
     </>
   )
+
+  function newFunction() {
+    console.log(product);
+  }
 }
 
