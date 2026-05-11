@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    background-color: var(--bg-main);
+}
+
+
+:root {
+  --bg-main: #fcf9f7;
+  --text-highlighting: #c73a0f;
+  --text-main: #260f08;
+  --text-secondary: #c9aea6;
+}
+
+main{
+    margin: 20px;
+    
+}
