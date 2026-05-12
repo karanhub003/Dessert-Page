@@ -1,3 +1,8 @@
+.addToBtnHeading{
+    font-size: 1rem;
+}
+
+
 .incDecBtn{
   display: flex;
   align-items: center;

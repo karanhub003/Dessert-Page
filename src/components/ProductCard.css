@@ -1,11 +1,12 @@
 .ProductContainer {
   display: flex;
   gap: 20px;
+  
   flex-wrap: wrap;
   padding: 10px 20px;
 }
 .ProductCard {
-  max-width: 350px;
+  max-width: 300px;
   padding: 10px;
   display: flex;
   flex-direction: column;
@@ -37,17 +38,21 @@
   cursor: pointer;
   color: var(--text-main);
   font-weight: 400;
+  
 }
 .addToBtn:hover{
   color:var(--text-highlighting);
 }
 
 .productName {
+  font-size: 0.8rem;
   color: var(--text-secondary);
 }
 .productTitle {
+  font-size: 1.3rem;
   color: var(--text-main);
 }
 .productPrice {
+  font-size: 1.3rem;
   color: var(--text-highlighting);
 }

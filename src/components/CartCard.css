@@ -1,0 +1,66 @@
+.cartContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+    padding: 20px;
+
+}
+
+.cartProduct{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--bg-main);
+    border-radius: 12px;
+}
+.cartLeftBox{
+    width: 15px;
+    height: 15px;
+    border: 1px solid salmon;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cartLeftBox img{
+    width: 70%;
+}
+.cartProductInfo{
+    margin-top: 5px;
+    display: flex;
+    gap: 10px;
+}
+.orderTotal{
+    margin-block:10px ;
+    display:  flex;
+    justify-content: space-between;
+}
+.ecoTree{
+    border: 2px solid seagreen;
+    padding:10px 20px;
+    border-radius: 12px;
+    background-color: var();
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+.orderNowBox{
+
+    display: flex;
+    justify-content: center;
+}
+.orderBtn{
+    border: none;
+    border-radius: 12px;
+    width: 100%;
+    padding: 15px;
+    background-color: var(--text-highlighting);
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+}

@@ -13,7 +13,7 @@ export default function AddToCart({ quantity, setQuantity }) {
           setQuantity(1)
         }}>
           <img src={cartImg} alt="" />
-          <h3>Add to cart</h3>
+          <h3 className="addToBtnHeading">Add to cart</h3>
         </div>
       ) : (
         <div className="incDecBtn">

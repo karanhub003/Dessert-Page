@@ -1,0 +1,15 @@
+.leftSide{
+    padding: 20px;
+    margin-block: 20px;
+}
+.Heading{
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--text-main);
+}
+.rightSide{
+   background-color: #fcf9f7;
+   border-radius: 12px;
+    min-width:400px ;
+    max-height: max-content;
+}

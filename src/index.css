@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
     margin: 0px;
+    font-family: 'Inter';
   
 }
 body{
@@ -8,14 +9,14 @@ body{
 }
 
 :root {
-  --bg-main: #fcf9f7;
+  --bg-main: #f4edeb;
   --text-highlighting: #c73a0f;
   --text-main: #260f08;
   --text-secondary: #c9aea6;
 }
 
 main{
-    margin: 20px;
+    margin:20px;
     display: flex;
     gap: 15px;
     
