@@ -8,6 +8,7 @@
     color: var(--text-main);
 }
 .rightSide{
+    margin-block: 20px;
    background-color: #fcf9f7;
    border-radius: 12px;
     min-width:400px ;

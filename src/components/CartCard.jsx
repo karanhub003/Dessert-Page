@@ -21,6 +21,19 @@ export default function CartCard() {
             <img src={close} alt="" />
           </div>
            </div>
+         <div className="cartProduct">
+          <div className="cartRightBox">
+            <p>Waffle</p>
+            <div className="cartProductInfo">
+              <p>1x</p>
+              <p>@7.50</p>
+              <p>$7.50</p>
+            </div>
+          </div>
+          <div className="cartLeftBox">
+            <img src={close} alt="" />
+          </div>
+           </div>
       </div>
       <div className="orderTotal">
         <p>
